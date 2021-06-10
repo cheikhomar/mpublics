@@ -1,0 +1,1 @@
+export const Role = localStorage.getItem('role')===null?null:localStorage.getItem('role');

@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.8b077067.chunk.css",
+    "main.js": "./static/js/main.ef18ca21.chunk.js",
+    "main.js.map": "./static/js/main.ef18ca21.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.e68ae367.js",
+    "runtime-main.js.map": "./static/js/runtime-main.e68ae367.js.map",
+    "static/css/2.d3f4252a.chunk.css": "./static/css/2.d3f4252a.chunk.css",
+    "static/js/2.a9bd216b.chunk.js": "./static/js/2.a9bd216b.chunk.js",
+    "static/js/2.a9bd216b.chunk.js.map": "./static/js/2.a9bd216b.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.d3f4252a.chunk.css.map": "./static/css/2.d3f4252a.chunk.css.map",
+    "static/css/main.8b077067.chunk.css.map": "./static/css/main.8b077067.chunk.css.map",
+    "static/js/2.a9bd216b.chunk.js.LICENSE.txt": "./static/js/2.a9bd216b.chunk.js.LICENSE.txt",
+    "static/media/actualite.2efb3cfb.jpg": "./static/media/actualite.2efb3cfb.jpg",
+    "static/media/Home.css": "./static/media/background.288be166.PNG",
+    "static/media/Passation.css": "./static/media/background_green.e04ed128.PNG",
+    "static/media/image_alerte.44e06d21.svg": "./static/media/image_alerte.44e06d21.svg",
+    "static/media/App.css": "./static/media/img-7.dfeef525.jpg",
+    "static/media/jqx.base.css": "./static/media/map-saturation-overlay.d0ab86ba.png",
+    "static/media/pirogues-de-peche-senegal.49a7e67e.jpg": "./static/media/pirogues-de-peche-senegal.49a7e67e.jpg",
+    "static/media/sn_l.dd9963b2.png": "./static/media/sn_l.dd9963b2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e68ae367.js",
+    "static/css/2.d3f4252a.chunk.css",
+    "static/js/2.a9bd216b.chunk.js",
+    "static/css/main.8b077067.chunk.css",
+    "static/js/main.ef18ca21.chunk.js"
+  ]
+}

@@ -1,0 +1,540 @@
+
+.background{
+  background-image: url('../../images/background.PNG');
+  height: 250px;
+  width: 100%;
+}
+
+.background_accueil{
+  height: 300px;
+  width: 100%;
+}
+
+.background_titre_page_home{
+    background-color: rgba(255, 255, 255, 0.658);
+    height: 150px;
+}
+
+.titre_accueil{
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.titre_accueil2{
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.titre_accueil_txt{
+  color: #1976D2;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.titre_accueil_txt2{
+  color: #647577;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 24px;
+}
+
+.chiffres{
+  height: 100px;
+}
+
+.passation{
+  float:left;
+  height: 100px;
+  width: 25%;
+  background-color: #1E88E5;
+  text-align: center;
+}
+
+.avisg{
+  float:left;
+  height: 100px;
+  width: 25%;
+  background-color: #1976D2;
+  text-align: center;
+}
+
+.concurrence{
+  float:left;
+  height: 100px;
+  width: 25%;
+  background-color: #1565C0;
+  text-align: center;
+}
+
+.pv{
+  float:left;
+  height: 100px;
+  width: 25%;
+  background-color: #0D47A1;
+  text-align: center;
+}
+
+.val{
+  margin-top: 30px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.titre_number{
+  margin-top: 30px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  color: white;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.titre_number:hover{
+  opacity: 25%;
+}
+
+@media screen and (max-width: 1070px) {
+  .pv, .passation, .avisg, .concurrence {
+    float: top;
+    width: 50%;
+  }
+  .val, .titre_number{
+    margin-bottom: 20px;
+  }
+  .liste_dernires_offres{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pv, .passation, .avisg, .concurrence,.single_card_offre {
+    float: top;
+    width: 100%;
+  }
+  .val, .titre_number{
+    margin-bottom: 20px;
+  }
+  .liste_dernires_offres{
+    width: 100%;
+  }
+}
+
+.dernieres_offres{
+    background-color: white;
+    width: 70%;
+    height: 650px;
+}
+
+@media screen and (max-width: 1700px) {
+  .dernieres_offres{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1182px) {
+  .dernieres_offres{
+    width: 100%;
+  }
+}
+
+
+.alertes{
+  width: 100%;
+  height: 400px;
+  background-color: #F6F6F6;
+}
+
+.dernieres_offres_div{
+  height: 20%;
+  width: 100%;
+}
+
+.dernieres_offres_txt_div{
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  width: 70%;
+  float: left;
+}
+
+.dernieres_offres_txt_value{
+  float: left;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.dernieres_offres_btn_div{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100%;
+  width: 30%;
+}
+
+.btn_voirplus{
+    margin-left: 70%;
+    float: right;
+    height: 35%;
+    width: 30%;
+    border: 1px solid #647577;
+    border-radius: 2px;
+    outline: none;
+    font-size: 14px;
+    color: #647577;
+    cursor: pointer;
+    background-color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.btn_voirplus:hover{
+  color: #fff;
+  cursor: pointer;
+  background-color: #647577;
+}
+
+@media screen and (max-width: 1059px) {
+  .btn_voirplus{
+      display: block;
+      margin-left: 10%;
+    }
+    .dernieres_offres{
+      width: 100%;
+  }
+  .dernieres_offres_txt_div{
+      width: 80%;
+  }
+  .dernieres_offres_btn_div{
+    width: 20%;
+  }
+
+  }
+
+  .flex_offres{
+    height:100%;
+     width: 100%;
+     display: flex;
+}
+  .liste_dernires_offres{
+       height: 70%;
+       width: 100%;
+  }
+  
+  .single_card_offre{
+    background-color: #EEF0F0;
+    float: left;
+    height: 500px;
+    width: 350px;
+  }
+
+  .card_title_div{
+    background-color: #647577;
+    height: 25%;
+    width: 100%;
+  }
+
+  .card_details_div{
+    height: 75%;
+    width: 100%;
+  }
+
+  .card_title_delai{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    float: left;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .card_title_ref{
+    height: 100%;
+    width: 75%;
+    float: left;
+  }
+
+  .delai_bande{
+    width: 100%;
+    height: 70%;
+    text-align: left;
+    display: flex;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+
+  .delai_offre_accueil_txt{
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .ref_title_txt_value{
+    color: white;
+    float: left;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+
+  .ref_title_txt{
+    color: white;
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 17px;
+  }
+
+  .ref_title_txt_value_div{
+    width: 100%;
+    height: 50%;
+  }
+  
+  .ref_title_txt_div{
+    width: 100%;
+    height: 50%;
+  }
+
+  .object_title{
+    height: 15%;
+    width: 100%;
+  }
+
+  .object_title_txt{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .object_details{
+    height: 30%;
+    width: 100%;
+    text-align: left;
+  }
+
+  .object_txt_details{
+    float: left;
+    margin-left: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+
+
+  .autorite_details{
+    height: 20%;
+    width: 100%;
+    text-align: left;
+  }
+
+  .autorite_txt_details{
+    float: left;
+    margin-left: 10px;
+    margin-right: 20%;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+  
+  .btn_consulter_favoris{
+    width: 100%;
+    height: 20%;
+  }
+
+  .btn_consulter_div{
+    height: 100%;
+    width: 50%;
+    float: left;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+  }
+
+  .btn_favoris_accueil_div{
+    height: 100%;
+    width: 48%;
+    float: left;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .btn_consulter{
+    margin-left: 10px;
+    float: left;
+    height: 40px;
+    width: 100px;
+    border: 1px solid #647577;
+    border-radius: 2px;
+    outline: none;
+    font-size: 14px;
+    color: #647577;
+    cursor: pointer;
+    background-color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.btn_consulter:hover{
+  color: #fff;
+  cursor: pointer;
+  background-color: #647577;
+}
+
+.btn_favoris_accueil{
+  float: right;
+  background-color: #EEF0F0;
+  border: 1px solid #647577;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+/*   margin-left: 10px;
+ */  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+/*   margin-left: 130px;
+ */}
+
+.btn_favoris_accueil:hover{
+ background-color: #1E88E5;
+}
+
+
+.sous-alerte, .sous-gestion{
+  width: 70%;
+  height: 80%;
+  margin:auto;
+  display: flex;
+}
+.alerte_image{
+  width: 60%;
+  height: 100%;
+  margin-left: 5%;
+}
+.gestion_titre_div{
+  width: 30%;
+  height: 100%;
+  text-align: center;
+}
+.gestion_titre{
+  margin-top: 50%;
+}
+
+.creer_alerte{
+  margin:auto;
+}
+.alerte_titre{
+  color: #1E88E5;
+}
+.button_alerte{
+  height: 50px;
+  width: 30%;
+  background-color: #1E88E5;
+  border: 1px solid #1E88E5;
+  color: white;
+
+}
+.actualite{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 5%;
+}
+.sous_actualite{
+  margin: auto;
+  margin-top: 2%;
+  width: 70%;
+  height: 80%;
+}
+.btn_actualite{
+  margin-left: 60%;
+  float: right;
+  width: 40%;
+  height: 80%;
+  border: 1px solid #647577;
+  border-radius: 2px;
+  outline: none;
+  font-size: 14px;
+  color: #647577;
+  cursor: pointer;
+  background-color: #fff;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.btn_actualite:hover{
+  color: #fff;
+  cursor: pointer;
+  background-color: #647577;
+}
+.actualite_image{
+  height: 260px;
+  width: 100%;
+}
+.liste_dernires_actualite{
+  height: 70%;
+  width: 100%;
+}
+.single_card_actualite{
+  float: left;
+  height: 100%;
+  width: 30%;
+  margin-right: 5%;
+}
+.actu_img{
+  width: 100%;
+ 
+}
+.consulter{
+  background-color: #647577 !important;
+  color: white !important;
+  border: 1px solid #647577 !important;
+}
+.actu_img2{
+ width: 100%;
+ height: 260px;
+}
+.gestion{
+  width: 100%;
+  height: 500px;
+  background-color: #647577;
+}
+.gestion_titre{
+  color: white;
+}
+.outils_gestion{
+  margin-top: 3%;
+  width:100%;
+  display: flex;
+  height: 50%;
+ }
+ .outils_gestion1{
+  margin-top: 7%;
+ }
+ .outil_gestion{
+  align-items: center;
+  margin-right: 5%;
+  height:100% ;
+  width: 40%;
+ }
+ .cardaction:hover, .cardaction:hover .icons,.cardaction:hover .outil{
+  background-color: #1E88E5 !important;
+  color: white !important;
+  
+ }
+ .outil_icon{
+   width: 100%;
+ }
+ .gestion_card,.cardaction{
+   margin: auto !important;
+   display: block !important;
+   height: 100% !important;
+ }
+ .icons,.outil{
+   margin-top:10%;
+   margin-left: 40%;
+   color: #647577;
+ }
+ 
+ .outil{
+  text-align: center;
+ }

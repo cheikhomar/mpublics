@@ -1,0 +1,169 @@
+.connection_body{
+  background-color: #313F41;
+  width: 100%;
+  height: 1000px;
+}
+
+.connection_bande{
+  background-color: white;
+  height: 500px;
+  width: 700px;
+}
+
+.height_space_connection_page{
+  height: 100px;
+}
+
+.titre_connection_div{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.titre_connection_txt{
+  color: #1E88E5;
+  font-size: 20px;
+}
+
+.titre_sinscrire_div{
+  height: 35px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.txt_sinscrire{
+  color: #1E88E5;
+  cursor: pointer;
+}
+
+.txt_sinscrire:hover{
+opacity: 80%;
+}
+
+.titre_sinscrire_txt{
+  font-size: 18px;
+  color: #313F41;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.form_div{
+  height: 365px; 
+  width: 100%;
+}
+
+.label_email{
+  width: 100%;
+  height: 90px;
+}
+
+.label_email_div_txt{
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: center;
+}
+
+.label_email_txt{
+  color: #313F41;
+  font-size: 18px;
+  margin-left: 36px;
+}
+
+.label_input_email_div{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.error_div{
+  height: 200px;
+}
+
+.champ_emailss{
+  border: 1px solid #647577;
+  width: 90%;
+  height: 40px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  border-radius: 0%;
+  font-size: 18px;
+  font-weight: 100;
+  background-color: white;
+}
+
+.height_space_connection_page2{
+  height: 50px;
+}
+
+.forgetpassword_div{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+}
+
+.forgetpassword_div_txt{
+  color: #1E88E5;
+  margin-left: 36px;
+  cursor: pointer;
+}
+
+.forgetpassword_div_txt:hover{
+  opacity: 85%;
+}
+
+.btn_seconnecter {
+  float: left;
+  height: 40px;
+  width: 90%;
+  border-radius: 2px;
+  border: 1px solid #647577;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #647577;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.btn_seconnecter:hover {
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: #647577;
+  border: 1px solid #647577;
+  transition: all 0.3s ease-out;
+  background-color: #EEF0F0;
+}
+
+.div_btn_seconnecter{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.error{
+  color: red;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 750px) {
+  .connection_bande{
+    width: 90%;
+  }
+}

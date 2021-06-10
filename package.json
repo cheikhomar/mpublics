@@ -1,0 +1,70 @@
+{
+  "name": "navbar-dropdown-v1",
+  "proxy": "https://mpublics.herokuapp.com",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@coreui/icons-react": "^1.1.0",
+    "@coreui/react": "^3.4.6",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "antd": "^4.15.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "dateformat": "^4.5.1",
+    "file-saver": "^2.0.5",
+    "jqwidgets-framework": "^12.0.4",
+    "jwt-decode": "^3.1.2",
+    "mdbreact": "^5.0.2",
+    "moment": "^2.29.1",
+    "prop-types": "^15.7.2",
+    "ra-data-json-server": "^3.14.2",
+    "ra-data-simple-rest": "^3.13.4",
+    "react": "^16.14.0",
+    "react-admin": "^3.14.2",
+    "react-bootstrap": "^1.5.2",
+    "react-collapsible": "^2.8.3",
+    "react-custom-share": "^0.4.8",
+    "react-date-picker": "^8.1.1",
+    "react-datepicker": "^3.7.0",
+    "react-dates": "^21.8.0",
+    "react-day-picker": "^7.4.10",
+    "react-dom": "^16.14.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-grid-system": "^7.1.2",
+    "react-icons": "^4.2.0",
+    "react-paginate": "^7.1.2",
+    "react-password-strength-bar": "^0.3.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-select": "^4.3.0",
+    "react-share": "^4.4.0",
+    "react-to-pdf": "0.0.13",
+    "rsuite": "^4.9.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

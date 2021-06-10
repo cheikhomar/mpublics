@@ -1,0 +1,1045 @@
+
+@keyframes spinner {
+    0% {
+      transform: translate3d(-50%, -50%, 0) rotate(0deg);
+    }
+    100% {
+      transform: translate3d(-50%, -50%, 0) rotate(360deg);
+    }
+  }
+  .spin::before {
+    animation: 1s linear infinite spinner;
+    animation-play-state: inherit;
+    border: solid 5px #fff;
+    border-bottom-color: #1E88E5;
+    border-radius: 50%;
+    content: "";
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    transform: translate3d(-50%, -50%, 0);
+    will-change: transform;
+  }
+
+  .offre_elmt_spin{
+    width: 100%;
+    width: 95%;
+    float: right;
+}
+
+.conteneur_filtres_offres{
+    background-color: white;
+    height: 3800px;
+    width: 60%;
+}
+
+.titre_page{
+    margin-top: 80px;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.background_titre_page{
+    background-color: #1E88E5;
+    height: 150px;
+}
+
+
+.height_space{
+    height: 20px;
+}
+
+.toutes{
+    width: 80% !important;
+}
+
+.conteneur_filtres{
+    height: 1200px;
+    background-color: white;
+    float: left;
+    width: 30%;
+}
+
+.conteneur_offres{
+    background-color: white;
+    height: 1000px;
+    float: left;
+    width: 70%;
+}
+
+.bande_filtre{
+    height: 50px;
+    background-color: #1E88E5;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.bande_filtre_txt{
+    height: 20px;
+}
+
+.bande_result {
+    height: 55px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.bande_result_txt{
+    height: 20px;
+}
+
+.btn_alerte {
+    height: 45px;
+    background-color: #1E88E5;
+    width: 100%;
+    display: flex;
+    border-radius: 2px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn_fav {
+    height: 45px;
+    background-color: #1E88E5;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.div_txt_fav{
+    height: 20px;
+}
+
+.text_fav{
+    color: white;
+    font-size: 16px;
+    float: left;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.div_icon_alert{
+    width: 30%;
+}
+
+.icon_alert{
+    float: left;
+    margin-left: 20px;
+}
+
+.div_txt_alert{
+    width: 70%;
+    height: 20px;
+}
+
+.btn_alerte:hover{
+    background-color: #F5F5F5;
+    border: 1px solid #1E88E5;
+}
+
+.btn_fav:hover{
+    background-color: #F5F5F5;
+    border: 1px solid #1E88E5;
+}
+
+.btn_fav:hover > .div_txt_fav > .text_fav{
+    color: #1E88E5;
+}
+
+.btn_alerte:hover > .div_txt_alert > .text_alerte{
+    color: #1E88E5;
+}
+
+.text_filtres{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.text_result{
+    color: black;
+    font-size: 16px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.text_alerte{
+    color: white;
+    font-size: 16px;
+    float: left;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.height_space{
+    height: 15px;
+}
+
+.bande_recherche{
+    background-color: #EEF0F0;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.bande_status_big{
+    height: 120px;
+    background-color: #EEF0F0;
+}
+
+.champ_recherche{
+    border: 1px solid #647577;
+    width: 80%;
+    height: 40px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    border-radius: 0%;
+    float: left;
+    font-size: 18px;
+    font-weight: 100;
+    background-color: #EEF0F0;
+    margin-right: 2%;
+}
+
+
+
+.btn_ok {
+    float: left;
+    height: 40px;
+    width: 40px;
+    border-radius: 2px;
+    border: 1px solid #647577;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #647577;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+  
+  .btn_ok:hover {
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: #647577;
+    border: 1px solid #647577;
+    transition: all 0.3s ease-out;
+    background-color: #EEF0F0;
+  }
+
+  .width_space{
+      width: 5px;
+      height: 2px;
+  }
+
+
+  @media screen and (max-width: 1461px) {
+    .conteneur_filtres_offres{
+      width: 75%;
+    }
+  }
+
+  @media screen and (max-width: 1300px) {
+    .conteneur_filtres_offres{
+      width: 90%;
+    }
+  }
+  
+
+  
+    @media screen and (max-width: 1059px) {
+    .conteneur_filtres, .conteneur_offres {
+      width: 100%;
+      float: top;
+    }
+    .conteneur_filtres_offres{
+        width: 80%;
+        height: 5500px;
+      }
+  }
+
+  @media screen and (max-width: 792px) {
+    .conteneur_filtres_offres{
+        height: 5500px;
+      }
+  }
+  
+  @media screen and (max-width: 1059px) {
+    .btn_ok, .btn_encours, .btn_expire, .btn_tous , .btn_download, .btn_sinscrire{
+        display: block;
+      }
+    }
+  
+  .btn_status{
+      height: 50px;
+      width: 85%;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      display: flex;
+  }
+
+  .btn_tous, .btn_encours, .btn_expire{
+    height: 50px;
+    width: 33.3333%;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+    font-size: 17px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+  .btn_tous:hover, .btn_encours:hover, .btn_expire:hover{
+      opacity: 80%;
+  }
+
+  .btn_expire{
+      border-right: none;
+      border-top: none;
+      border-bottom: none;
+      border-left: 1px solid #647577;
+  }
+
+  .btn_encours{
+    border: none;
+}
+
+.btn_tous{
+    border-right: 1px solid #647577;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+  .bande_status{
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      display: flex;
+  }
+
+  .status_title{
+      float: left;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      color: #1E88E5;
+      font-size: 14px;
+      margin-left: 35px;
+  }
+
+  .height_space1{
+      height: 35px;
+  }
+
+  .tutorial{
+      width: 95%;
+      height: 30px;
+      float: right;
+  }
+
+  .tuto_vert, .tuto_jaune, .tuto_rouge{
+      width: 33.33333%;
+      height: 30px;
+      float: left;
+      display: flex;
+      justify-content: left;
+  }
+
+  .vert{
+      width: 15px;
+      height: 15px;
+      background-color: #2EAB82;
+      float: left;
+      margin-top: 4px;
+  }
+  
+  .jaune{
+    width: 15px;
+    height: 15px;
+    background-color: #E2B13C;
+    float: left;
+    margin-top: 4px;
+  }
+
+  .rouge{
+    width: 15px;
+    height: 15px;
+    background-color: #E63009;
+    float: left;
+    margin-top: 4px;
+  }
+
+  .delai_tuto{
+      float: left;
+      margin-left: 15px;
+  }
+
+.width_spaces{
+    width: 15px;
+}
+
+.type_de_marche{
+    background-color: #EEF0F0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.type_de_marche:hover{
+background-color: #DFE3E3;
+}
+
+.type_dautorite{
+    background-color: #EEF0F0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.type_dautorite:hover{
+background-color: #DFE3E3;
+}
+
+.MuiFormControl-fullWidth {
+    width: 90%  !important;
+    margin-top: 5% !important;
+}
+.MuiFormLabel-root.Mui-focused{
+    color:#1E88E5 !important;
+}
+.MuiFormControl-fullWidth.Mui-focused{
+    border: 2px solid #1E88E5 !important;
+   
+}
+.MuiFormControl-root{
+    /* background-color: #DFE3E3  !important; */
+}
+.MuiAutocomplete-tag {
+    background-color:#1E88E5 !important;
+}
+.MuiChip-root{
+    color: white !important;
+}
+
+.date_publication{
+    width: 100%;
+    height: 110px;
+    background-color: #EEF0F0;
+}
+
+.type_de_marche{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+}
+
+.title_typemarche{
+    float: left;
+    margin-left: 30px;
+    font-size: 12px;
+    color:  #1E88E5;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.div_type_marche_txt{
+    width: 70%;
+    text-align: left;
+    height: 10px;
+}
+
+.chevron{
+ width: 30%;
+}
+
+.icon_chev1, .icon_chev2{
+    float: right;
+    margin-right: 20px;
+}
+
+.type_de_marche_exp{
+    width: 100%;
+    height: 200px;
+    background-color: #EEF0F0;
+}
+.direction_exp{
+    width: 100%;
+    height: 100px;
+    background-color: #EEF0F0;
+}
+
+.date_publication{
+    width: 100%;
+    height: 80px;
+}
+.date{
+    float: left;
+    width:40%;
+    margin-left: 2%;
+}
+.inputDate{
+    border: 1px solid #647577;
+    background-color: transparent;
+    text-align: center;
+    float: left;
+    width:95% ;
+    height: 40px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected ,.react-datepicker__day--selected{
+    background-color: #1E88E5 !important;
+}
+.ok{
+    width: 30%;
+    height: 30px;
+    margin-left: 40%;
+    border-radius: 2px;
+    border: 1px solid #647577;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #647577;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.ok:hover {
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: #647577;
+    border: 1px solid #647577;
+    transition: all 0.3s ease-out;
+    background-color: #EEF0F0;
+  }
+.pagination{
+    margin-left: 20% !important;
+    width: 100%;
+}
+.MuiTypography-root.MuiTablePagination-caption.MuiTypography-body2.MuiTypography-colorInherit:nth-child(2){
+    text-indent: -9999px;
+    line-height: 0;
+}
+.MuiTypography-root.MuiTablePagination-caption.MuiTypography-body2.MuiTypography-colorInherit:nth-child(2):after{
+    content: "Nombre d'éléments par page";
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+}
+.MuiTablePagination-input {
+    border: 1px black solid;
+}
+.checkbox_fourniture{
+    width: 100%;
+    height: 20%;
+    background-color: #EEF0F0;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.forniture_txt{
+    font-size: 12px;
+    margin-left: 10px;
+    float: left;
+    color:  black;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.checkbox_fourniture:hover > .div_fourniture > .forniture_txt{
+    color: white;
+}
+.checkbox_fourniture:hover > .div_fourniture_nbr > .forniture_nbr{
+    color: white;
+}
+
+.checkbox_service:hover > .div_service > .service_txt{
+    color: white;
+}
+.checkbox_service:hover > .div_service_nbr > .service_nbr{
+    color: white;
+}
+
+
+.checkbox_prestation:hover > .div_prestation > .prestation_txt{
+    color: white;
+}
+.checkbox_prestation:hover > .div_prestation_nbr > .prestation_nbr{
+    color: white;
+}
+
+
+.checkbox_travaux:hover > .div_travaux > .travaux_txt{
+    color: white;
+}
+.checkbox_travaux:hover > .div_travaux_nbr > .travaux_nbr{
+    color: white;
+}
+
+
+.checkbox_delegation:hover > .div_delegation > .delegation_txt{
+    color: white;
+}
+.checkbox_delegation:hover > .div_delegation_nbr > .delegation_nbr{
+    color: white;
+}
+
+.div_fourniture_nbr{
+    width: 20%;
+    margin-right: 20px;
+}
+
+.div_fourniture{
+    width: 80%;
+    height: 20px;
+}
+
+.forniture_nbr{
+    height: 15px;
+    font-size: 15px;
+    float: right;
+    color:#1E88E5;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.checkbox_service, .checkbox_travaux, .checkbox_delegation, .checkbox_prestation{
+    width: 100%;
+    height: 20%;
+    background-color: #EEF0F0;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox_service:hover, .checkbox_travaux:hover, .checkbox_delegation:hover, .checkbox_prestation:hover, .checkbox_fourniture:hover{
+    background-color: #8D9A9C;
+}
+
+.service_txt, .travaux_txt, .delegation_txt, .prestation_txt{
+    font-size: 12px;
+    margin-left: 10px;
+    float: left;
+    color:  black;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.div_service_nbr, .div_prestation_nbr, .div_travaux_nbr{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.div_prestation_nbr{
+    width: 30%;
+    margin-right: 20px;
+}
+
+.div_delegation_nbr{
+    width: 30%;
+    margin-right: 20px;
+}
+
+.div_service, .div_prestation, .div_travaux{
+    width: 50%;
+    text-align: left;
+}
+
+.div_delegation{
+  width: 70%;
+}
+
+.div_prestation{
+    width: 70%;
+  }
+
+.service_nbr, .delegation_nbr, .travaux_nbr, .prestation_nbr{
+    font-size: 15px;
+    float: right;
+    color:#1E88E5;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.offre_elmt{
+    width: 100%;
+    height: 340px;
+    background-color: #F6F6F6;
+    width: 95%;
+    float: right;
+}
+
+.height_space_offres_tuto{
+    height: 50px;
+}
+
+.entete_offres{
+    height: 70px;
+}
+
+.autorite_contractante{
+    width: 60%;
+    background-color: #647577;
+    height: 70px;
+    float: left;
+}
+
+.date_limite{
+    border-width: 1px 0 1px 0;
+    width: 25%;
+    background-color: #1E88E5;
+    height: 70px;
+    float: left;
+}
+
+.delai_offre{
+    width: 15%;
+    background-color: #1E88E5;
+    height: 70px;
+    float: left;
+}
+
+.autorite_contractante_title{
+    font-size: 0.9rem;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.autorite_contractante_variable{
+    color: white;
+    margin-left: 10px;
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    float: left;
+}
+
+.autorite_contractante_div_title{
+    width: 100%;
+    height: 50%;
+    display: block;
+}
+
+.autorite_contractante_div_value{
+    width: 100%;
+    height: 50%;
+    display: block;
+    text-align: left;
+}
+
+@media screen and (max-width: 770px) {
+    .autorite_contractante{
+        float: none;
+        width: 100%;
+      }
+      .date_limite{
+          width: 60%;
+      }
+      .delai_offre{
+          width: 40%;
+      }
+      .tutorial{
+          width: 100%;
+      }
+      .offre_elmt{
+          width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 679px) {
+        .tuto_vert, .tuto_jaune, .tuto_rouge{
+            float: none;
+            width: 100%;
+          }
+        
+          .tutorial{
+              height: 100px;
+          }
+
+          .conteneur_filtres_offres{
+            width: 95%;
+          }
+        }
+
+.description_offre{
+    word-wrap: break-word;
+    width:100%;
+    height: 90px;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    }
+
+
+.description_value{
+    font-size: 16px;
+    color: #647577;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.date_ref_infos{
+    height: 25px;
+    width: 100%;
+}
+
+.date_publication_offre{
+    height: 25px;
+    width: 33.3333%;
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+}
+
+.date_ouverture_offre{
+    height: 25px;
+    width: 33.3333%;
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+}
+
+.reference{
+    height: 25px;
+    width: 33.3333%;
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+}
+
+.date_publi_txt{
+    text-align: left;
+    margin-left: 10px;
+    color: #647577;
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+
+.date_publi_txt_value{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #647577;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+
+.lieu_acquisition{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+}
+
+.lieu_acquisition_txt{
+        margin-left: 10px;
+        color: #647577;
+        font-size: 13px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+
+.lieu_acquisition_value{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+}
+
+.date_publi_txt_value{
+    margin-left: 10px;
+    font-size: 12px;
+    color: #647577;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+
+
+.favoris_download{
+    height: 60px;
+    width: 100%;
+}
+
+.favoris_div{
+  width: 60%;
+  height: 100%;
+  float: left;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+}
+
+.btn_favoris{
+   background-color: #EEF0F0;
+   border: 1px solid #647577;
+   height: 45px;
+   width: 45px;
+   border-radius: 50%;
+   margin-left: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+.favoris{
+    background-color: #1E88E5;
+}
+
+.btn_favoris:hover{
+    background-color: #1E88E5;
+}
+
+.btn_download_share{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.btn_download_div{
+    width: 50%;
+    height: 100%;
+    float: left;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+}
+
+.btn_share_div{
+    width: 50%;
+    height: 100%;
+    float: left;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+}
+
+.btn_download {
+    float: left;
+    height: 50%;
+    width: 85%;
+    border-radius: 2px;
+    border: 1px solid #647577;
+    outline: none;
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #647577;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+  .link-pdf {
+    color:#fff ;
+    height: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+  .btn_download:hover, .link-pdf:hover{
+    color: #647577;
+    background-color: #EEF0F0;
+  }
+
+  @media screen and (max-width: 790px) {
+    .offre_elmt{
+      height: 400px;
+    }
+  }
+
+  @media screen and (max-width: 790px) {
+    .favoris_div{
+        width: 30%;
+    }
+    .btn_download_share{
+        width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 790px) {
+    .date_publi_txt{
+        font-size: 11px;
+    }
+  }
+
+  .height_space_between_offres{
+      height: 30px;
+  }
+
+
+  .pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+}
+.pagination > .active > a{
+  background-color: #47ccde ;
+  border-color: #47ccde ;
+  color: #fff;
+}
+.pagination > li > a{
+  border: 1px solid #47ccde ;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: #47ccde ;
+  border-color: #47ccde;
+  outline: none ;
+}
+.pagination > li > a, .pagination > li > span{
+  color: #47ccde
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+  border-radius: unset
+}
+
+/*
+ BARRE OBLIQUE
+.title {
+    position: relative;
+    padding: 10px 20px 10px 10px;
+    font-size: 20px;
+    position: relative;
+    color: #FFF;
+}
+.title:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform-origin: bottom left;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+} */

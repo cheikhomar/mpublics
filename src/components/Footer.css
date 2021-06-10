@@ -1,0 +1,315 @@
+.main_footer{
+  height: 700px;
+  width: 100%;
+  background-color: #313F41;
+}
+
+.footer_newsletter_div{
+  width: 100%;
+  height: 300px;
+  background-color: #F6F6F6;
+}
+
+.news_letter_text_div{
+  height: 30%;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.newsletter_txt{
+  color: #1E88E5;
+}
+
+.abonn_div{
+  width: 450px;
+  height: 70px;
+}
+
+.abonn_txt{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 18px;
+  color: #313F41;
+}
+
+@media screen and (max-width: 450px) {
+  .abonn_div{
+    width: 100%;
+  }
+  .abonn_txt{
+    font-size: 15px;
+  }
+}
+
+.champ_abonn_div{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.champ_email{
+  border: 1px solid #647577;
+  width: 300px;
+  height: 40px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  border-radius: 0%;
+  float: left;
+  font-size: 18px;
+  font-weight: 100;
+  background-color: #EEF0F0;
+}
+
+.btn_sinscrire{
+  float: left;
+  height: 40px;
+  width: 80px;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #1E88E5;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.btn_sinscrire:hover{
+   background-color: #EEF0F0;
+   color: #1E88E5;
+   border: 1px solid #1E88E5;
+}
+
+@media screen and (max-width: 484px) {
+  .btn_sinscrire {
+    width: 60px;
+  }
+  .champ_email{
+    width: 200px;
+  }
+}
+
+.footer_menu_div{
+  height: 400px;
+  width: 100%;
+}
+
+.logo_div{
+  height: 87%;
+  width: 25%;
+  float: left;
+  background-color: #313F41;
+}
+
+.outilsgestion_div{
+  height: 87%;
+  width: 25%;
+  float: left;
+  background-color: #313F41;
+}
+
+.rapports_div{
+  height: 87%;
+  width: 25%;
+  float: left;
+  background-color: #313F41;
+}
+
+.liens_div{
+  height: 87%;
+  width: 25%;
+  float: left;
+  background-color: #313F41;
+}
+
+.drapeau{
+  height: 3%;
+  width: 100%;
+}
+
+.drapeau_vert{
+  height: 100%;
+  width: 33.3333%;
+  background-color: #2EAB82;
+  float: left;
+}
+.drapeau_jaune{
+  height: 100%;
+  width: 33.3333%;
+  background-color: #E2B13C;
+  float: left;
+}
+.drapeau_rouge{
+  height: 100%;
+  width: 33.3333%;
+  background-color: #E63009;
+  float: left;
+}
+
+.space_footer{
+  width: 100%;
+  height: 50px;
+}
+
+.menu_footer_div_tiltle{
+  height: 40px;
+  width: 100%;
+}
+
+.menu_footer_text_tiltle{
+  margin-left: 20px;
+  cursor: pointer;
+  color: white;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.menu_footer_text_tiltle:hover{
+  color: #909798;
+}
+
+.sous_mennu_footer_div{
+  height: 20px;
+  width: 100%;
+}
+
+.sous_menu_footer_txt{
+  margin-left: 20px;
+  cursor: pointer;
+  color: #909798;
+  font-size: 14px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.sous_menu_footer_txt:hover{
+  color: white;
+}
+
+.copyright{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright_txt{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 14px;
+  color: #909798;
+}
+
+@media screen and (max-width: 500px) {
+  .copyright_txt{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .footer_menu_div{
+    height: 300px;
+  }
+  .logo_div{
+    height: 87%;
+    width: 50%;
+    float: left;
+  }
+  
+  .outilsgestion_div{
+    height: 87%;
+    width: 50%;
+    float: left;
+  }
+  
+  .rapports_div{
+    height: 87%;
+    width: 50%;
+    float: left;
+  }
+  
+  .liens_div{
+    height: 87%;
+    width: 50%;
+    float: left;
+  }
+  
+}
+
+@media screen and (max-width: 700px) {
+  .logo_div{
+    height: 87%;
+    width: 100%;
+    float: left;
+  }
+  
+  .outilsgestion_div{
+    height: 87%;
+    width: 100%;
+    float: left;
+  }
+  
+  .rapports_div{
+    height: 87%;
+    width: 100%;
+    float: left;
+  }
+  
+  .liens_div{
+    height: 87%;
+    width: 100%;
+    float: left;
+  }
+  
+}
+
+.logo_div_img{
+  height: 80px;
+  width: 100%;
+}
+
+.resaux_sociaux{
+  width: 100%;
+  height: 50px;
+}
+
+.twitter{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: #909798;
+  border-radius: 50%;
+  margin-left: 20px;
+  float: left;
+}
+
+.facebook{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: #909798;
+  border-radius: 50%;
+  margin-left: 20px;
+  float: left;
+}
+
+.youtube{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: #909798;
+  border-radius: 50%;
+  margin-left: 20px;
+  float: left;
+}
+
+.logo_footer{
+  margin-left: 20px;
+}
